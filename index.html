@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="./js/app.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- <link rel="stylesheet" href="./css/reset.css"> -->
+	<title>Do You Festival?</title>
+</head>
+<body>
+	<!-- Initial Landing Page -->
+	<div id="container">
+		<h1 class="title t1">DO YOU</h1>
+		<h1 class="title t2">EVEN</h1>
+		<h1 class="title t3">FESTIVAL?</h1>
+		<h1 class="title main-title">FESTIVAL</h1>
+		<h4 class="quizButton">Prove It And Take The Quiz</h4>
+		<h6>Music: Tycho - A Walk</h6>
+	</div>
+	<!-- <div id="skipIntro">
+		<h6 class="skip">Skip</h6>
+	</div> -->
+	<!-- Quiz Questions -->
+	<div class="quizContent">
+		<span class="question">What is the largest music festival in the world?</span>
+		<div class="multipleChoiceAnswers">
+			<input type="radio" name="option" class="option" value="0"><span class="answer"></span>Summerfest<br>
+			<input type="radio" name="option" class="option" value="1"><span class="answer"></span>Coachella<br>
+			<input type="radio" name="option" class="option" value="2"><span class="answer"></span>Donauinselfest<br>
+			<input type="radio" name="option" class="option" value="3"><span class="answer"></span>Mawazine<br>
+		</div>
+		<div class="answerButtons">
+			<input type="button" id="submit" value="Submit">
+			<input type="button" id="retryButton" value="Re-Take">
+		</div>
+	</div>
+	<audio id="classixx" src="./music/Tycho-A-Walk .mp3"></audio>
+</body>
+<footer><!-- Question Facts -->
+	<div id="bottom">
+		<div id="factHolder">
+			<span id="lastQuestionFact"></span>
+		</div>
+	</div>
+	<div id="bottom2">
+		<div id="yourAnswer">
+			<span id="correct">CORRECT!</span>
+			<span id="incorrect">INCORRECT!</span>
+		</div>
+	</div>
+</footer>
+</html>

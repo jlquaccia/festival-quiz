@@ -254,7 +254,7 @@ h1.title.t1, h1.title.t2, h1.title.t3 {
 }
 
 div#yourAnswer {
-	margin-top: -130px;
+	margin-top: -70px;
 }
 
 @media screen and (max-width: 1100px) {

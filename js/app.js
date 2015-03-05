@@ -76,9 +76,9 @@ $(document).ready(function() {
 			currentQuestion++;
 			nextQuestion();
 		}
-		else {
-			alert("You must select an answer!");
-		}
+		// else {
+		// 	alert("You must select an answer!");
+		// }
 	});
 
 	// Allows you to take the quiz over again

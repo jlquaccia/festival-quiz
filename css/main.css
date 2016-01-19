@@ -1,7 +1,10 @@
 body {
 	background: url(../img/Coachella3.jpg) no-repeat;
-	background-size: 100%;
-  min-height: 100%;
+	background-size: 100% 100%;
+}
+
+html {
+  height: 100%;
 }
 
 #container {
@@ -288,7 +291,7 @@ div#yourAnswer {
 
 @media screen and (max-width: 400px) {
   body {
-    background-image: url("../img/red-bg-mobile.jpg");
+    background-color: #8E8F26;
   }
 
   #submit,
@@ -306,5 +309,9 @@ div#yourAnswer {
 
   .quizContent {
     width: 90%;
+  }
+
+  .main-title {
+    letter-spacing: 10px;
   }
 }

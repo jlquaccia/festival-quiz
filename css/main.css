@@ -1,8 +1,6 @@
 body {
-	background: url(../img/Coachella3.jpg) no-repeat center center;
-	background-size: cover;
-	background-position: fixed;
-	background-attachment: fixed;
+	background: url(../img/Coachella3.jpg) no-repeat;
+	background-size: 100%;
 }
 
 #container {

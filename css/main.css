@@ -1,6 +1,7 @@
 body {
 	background: url(../img/Coachella3.jpg) no-repeat;
 	background-size: 100%;
+  min-height: 100%;
 }
 
 #container {

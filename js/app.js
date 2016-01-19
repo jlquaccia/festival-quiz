@@ -47,21 +47,21 @@ $(document).ready(function() {
 		choices: ["Bonnaroo", "Lollapalooza", "Glastonbury", "Warped Tour"],
 		questionNumber: 2,
 		correctChoice: 3,
-		fact: "Answer: Warped Tour <br> The Vans Warped Tour first started in 1994 and has been going <br> strong each year since then."
+		fact: "Answer: Warped Tour <br> Warped Tour started in 1994 and continues to keep going."
 		},
 		{
 		question: "During Coachella 2012, what famous artist was brought back to life in holographic form?",
 		choices: ["Michael Jackson", "2pac", "Jimi Hendrix", "Kurt Cobain"],
 		questionNumber: 3,
 		correctChoice: 1,
-		fact: "Answer: 2pac <br> Although the official cost was not released, it was reported that the hologram <br> was priced between $100,000 and $400,000."
+		fact: "Answer: 2pac <br> It was reported that the hologram was priced between $100,000 and $400,000."
 		},
 		{
 		question: "Around how much did a 3-day pass to Woodstock cost back in 1969?",
 		choices: ["Over $200", "$150", "$100", "Less than $50"],
 		questionNumber: 4,
 		correctChoice: 3,
-		fact: "Answer: Less than $50 <br> Tickets for the three-day event cost $18 in advance and $24 at the gate <br> (equivalent to $120.00 and $150.00 in 2014)."
+		fact: "Answer: Less than $50 <br> Tickets were priced at $18 (That's for 3 days)."
 		}
 	];
 
@@ -76,9 +76,9 @@ $(document).ready(function() {
 			currentQuestion++;
 			nextQuestion();
 		}
-		else {
-			alert("You must select an answer!");
-		}
+		// else {
+		// 	alert("You must select an answer!");
+		// }
 	});
 
 	// Allows you to take the quiz over again

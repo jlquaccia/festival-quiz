@@ -314,4 +314,8 @@ div#yourAnswer {
   .title {
     line-height: inherit;
   }
+
+  .tycho {
+    display: none !important;
+  }
 }

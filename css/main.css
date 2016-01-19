@@ -114,23 +114,7 @@ h6 {
     background: #B65669;
 }
 
-/*.overlay {*/
-	width: 100%;
-	height: 100%;
-	color: #fff;
-	background: url(../img/Coachella3.jpg) no-repeat center center;
-	background-size: cover;
-	background-position: fixed;
-	background-attachment: fixed;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	z-index: 1;
-	display: none;
-}
-
-.background-image {
+/*.background-image {
   position: fixed;
   left: 0;
   right: 0;
@@ -143,13 +127,7 @@ h6 {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  
-  /*-webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);*/
-}
+}*/
 
 .quizContent {
 	color: #fff;
@@ -307,4 +285,27 @@ div#yourAnswer {
 		letter-spacing: 20px;
 		margin: 0;
 	}
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url("../img/red-bg-mobile.jpg");
+  }
+
+  #submit,
+  #retryButton {
+    font-size: 15px;
+  }
+
+  .quizButton {
+    width: 50%;
+  }
+
+  span.answer {
+    padding-left: 10px;
+  }
+
+  .quizContent {
+    width: 90%;
+  }
 }
